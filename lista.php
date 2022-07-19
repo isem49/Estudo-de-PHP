@@ -3,7 +3,7 @@ session_start();
 include_once './connection.php';
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <title>Listar</title>
@@ -58,7 +58,7 @@ include_once './connection.php';
             // Maximo de link
             $maximo_link = 2;
 
-            echo "<a href='index.php?page=1'>Primeira</a> ";
+            echo "<a href='lista.php?page=1'>Primeira</a> ";
 
             for ($pagina_anterior = $pagina - $maximo_link; $pagina_anterior <= $pagina - 1; $pagina_anterior++) {
                 if ($pagina_anterior >= 1) {
