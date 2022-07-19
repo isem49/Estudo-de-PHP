@@ -59,6 +59,11 @@ include_once './connection.php';
             ?>"><br><br>
 
             <input type="submit" value="Cadastrar" name="CadUsuario">
+            </br></br>
         </form>
+        
+        <a href="index.php">Index</a>
+        <a href="lista.php">Lista</a>
+
     </body>
 </html>
