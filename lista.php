@@ -47,7 +47,8 @@ include_once './connection.php';
             echo "ID: $id <br>";
             echo "Nome: $nome <br>";
             echo "E-mail: $email <br>";
-            echo "<a href='detalhes.php?id_usuario=$id'>Detalhes</a>";
+            echo "<a href='detalhes.php?id_usuario=$id'>Detalhes</a><br>";
+            echo "<a href='editar.php?id_usuario=$id'>Editar</a>";
             echo "<hr>";
         }
 

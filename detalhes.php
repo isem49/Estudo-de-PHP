@@ -15,13 +15,13 @@ if (empty($id)) {
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Visualizar</title>
+        <title>Detalhes</title>
     </head>
     <body>
         <a href="lista.php">Listar</a><br>
         <a href="cadastrar.php">Cadastrar</a><br>
 
-        <h1>Visualizar</h1>
+        <h1>Detalhes</h1>
 
         <?php
         $query_usuario = "SELECT id, nome, email FROM usuarios WHERE id = $id LIMIT 1";
